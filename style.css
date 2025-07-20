@@ -1,3 +1,15 @@
-.body{
-  background-color: red;
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+      height: 100vh;
+      background-color: aqua;
+}
+
+canvas {
+  display: block;
+      top: 0;
+    left: 0;
+    z-index: 1;
 }
