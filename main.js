@@ -13,7 +13,7 @@ camera.position.z = 4;
 // 3. Create textures
 const loader = new THREE.TextureLoader();
 
-// Load your photo
+// Load photo
 const photoTexture = loader.load('photo.jpg',
     function(texture) {
         console.log('Photo loaded successfully');
